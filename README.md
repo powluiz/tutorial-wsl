@@ -29,6 +29,8 @@
 
 Adicione suas chaves SSH no windows dentro do endereço desejado (Normalmente `C:\Users\<username>\.ssh`). Para saber como gerar de forma local e adicionar sua chave SSH na lista de permissões, veja a documentação do servidor que utilizar (GitHub, GitLab, Bitbucket, etc).
 
+No caso do GitHub, já fiz um tutorial <a href="https://github.com/luiz1303/Tutorial_Git">aqui</a> .
+
 Em seguida, abra um novo terminal no WSL (e que esteja no diretorio raíz, como: `Linux/sua-distro/home/seu-username`) e utilize o comando a seguir para copiar a sua pasta .ssh do windows para o WSL:
 
 ```
