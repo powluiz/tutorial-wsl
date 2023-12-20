@@ -50,6 +50,7 @@ chmod 600 ~/.ssh/id_rsa
 A partir de agora, para facilitar o controle das suas chaves SSH, vamos utilizar o <a href = "https://www.funtoo.org/Funtoo:Keychain">Keychain</a>. Para instalá-lo, execute:
 
 ```
+sudo apt-get update
 sudo apt install keychain
 ```
 
