@@ -177,6 +177,8 @@ netsh interface portproxy add v4tov4 listenport=5173 listenaddress=0.0.0.0 conne
 
 <strong>Importante:</strong> O endereço IP do windows e do WSL podem mudar. Portanto, este passo-a-passo é requerido toda vez que reiniciar sua máquina ou o WSL.
 
+<strong>Importante 2:</strong> Caso você redirecione localhost:5173 (por exemplo) para o endereço equivalente no WSL, será necessário remover esse redirecionamento caso tente rodar o servidor local sem hostear para a rede, já que, nesse caso, você será redirecionado para um endereço que não está disponível!
+
 Para visualizar todos as portas redirecionadas, utilize `netsh interface portproxy show v4tov4`. Para deletar uma porta redirecionada, utilize: `netsh interface portproxy delete v4tov4 listenport=<porta-escolhida-no-firewall> listenaddress=0.0.0.0`
 
 ### Pronto! Agora você pode acessar sua aplicação através do endereço de ip do windows e pela porta escolhida!
