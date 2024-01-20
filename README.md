@@ -189,7 +189,3 @@ Para visualizar todos as portas redirecionadas, utilize `netsh interface portpro
 - [Medium - Access WSL localhost from LAN](https://medium.com/codemonday/access-wsl-localhost-from-lan-for-mobile-testing-8635697f008)
 - [jwstanly.com - Port Forwarding WSL 2 to Your LAN](https://jwstanly.com/blog/article/Port+Forwarding+WSL+2+to+Your+LAN)
 - [Microsoft - Netsh interface portproxy commands](https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-interface-portproxy)
-
-```
-
-```
