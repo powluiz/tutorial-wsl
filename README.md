@@ -187,9 +187,42 @@ Para visualizar todos as portas redirecionadas, utilize `netsh interface portpro
 
 ## Customizar terminal do WSL2:
 
-- [Terminal com autocomplete e mais prático que ZSH](https://fishshell.com/)
-- [Customizar Oh My Fish](https://www.youtube.com/watch?v=76aEqJJVRZY)
-- [Make your WSL or WSL2 terminal awesome](https://www.youtube.com/watch?v=235G6X5EAvM)
+<img src = "./src/img/terminal_sample.png"></img>
+
+Para ter o terminal acima, você precisará de 2 itens:
+
+- FishShell (Alternativa ao bash padrão que adiciona autocomplete e outras features)
+- StarShip (Muda a estilização do terminal)
+
+### Instale o [Fish Shell](https://fishshell.com/):
+
+```bash
+sudo apt install fish
+sudo apt-get update
+
+# Para tornar fish shell padrão:
+sudo chsh -s /usr/bin/fish
+
+# Caso queira voltar bash normal em algum momento:
+sudo chsh -s /usr/bash
+```
+
+<strong>OBS: Antes de desinstalar o FishShell, execute `sudo chsh -s /usr/bash` para garantir que o seu terminal não vai quebrar ao reinicializá-lo! </strong>
+
+Reinicie o terminal e veja se o FishShell foi inicializado corretamente. Em seguida, instale o [StarShip](https://fishshell.com/):
+Reinicie o terminal e veja se o FishShell foi inicializado corretamente.
+
+### Instale o [StarShip](https://starship.rs/):
+
+```bash
+curl -sS https://starship.rs/install.sh | sh
+echo "starship init fish | source" >> ~/.config/fish/config.fish
+```
+
+OBS: Você pode ter que instalar uma das [NerdFonts](https://www.nerdfonts.com/font-downloads) e mudar a fonte padrão do terminal para exibir os ícones do StarShip corretamente!
+
+- [Make Windows Terminal look amazing!](https://www.youtube.com/watch?v=AK2JE2YsKto)
+- [Tutorial para instalar FishShell com Starship](https://linuxtldr.com/installing-fish/)
 
 ## Referências:
 
