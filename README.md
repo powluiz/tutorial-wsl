@@ -183,6 +183,10 @@ Para visualizar todos as portas redirecionadas, utilize `netsh interface portpro
 
 <br>
 
+## Customizar o WSL2 com OhMyZsh:
+
+- [Make your WSL or WSL2 terminal awesome](https://www.youtube.com/watch?v=235G6X5EAvM)
+
 ## Referências:
 
 - [GitHub - Expose-WSL](https://github.com/icflorescu/expose-wsl)
