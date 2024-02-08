@@ -185,8 +185,10 @@ Para visualizar todos as portas redirecionadas, utilize `netsh interface portpro
 
 <br>
 
-## Customizar o WSL2 com OhMyZsh:
+## Customizar terminal do WSL2:
 
+- [Terminal com autocomplete e mais prático que ZSH](https://fishshell.com/)
+- [Customizar Oh My Fish](https://www.youtube.com/watch?v=76aEqJJVRZY)
 - [Make your WSL or WSL2 terminal awesome](https://www.youtube.com/watch?v=235G6X5EAvM)
 
 ## Referências:
