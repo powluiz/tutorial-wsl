@@ -221,6 +221,8 @@ echo "starship init fish | source" >> ~/.config/fish/config.fish
 
 OBS: Você pode ter que instalar uma das [NerdFonts](https://www.nerdfonts.com/font-downloads) e mudar a fonte padrão do terminal para exibir os ícones do StarShip corretamente!
 
+OBS 2: Pode ser necessário realizar os passos para autenticação ssh com keychain novamente!
+
 - [Make Windows Terminal look amazing!](https://www.youtube.com/watch?v=AK2JE2YsKto)
 - [Tutorial para instalar FishShell com Starship](https://linuxtldr.com/installing-fish/)
 
